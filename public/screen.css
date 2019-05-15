@@ -42,10 +42,19 @@ input {
 
 div {
   font-size: 2rem;
-  margin-left: 7%;
+  margin-left: 20%;
   margin-top: 1rem;
 }
 
 span {
   font-size: 3rem;
+}
+
+.weather-results {
+  background-color: #61789790;
+  margin-right: 40%;
+  margin-left: 10%;
+  padding-bottom: 45px;
+  padding-top: 25px;
+
 }

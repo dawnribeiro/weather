@@ -12,9 +12,10 @@ const getWeatherFromApi = () => {
       console.log({
         weather
       })
+
       const kelvinConvert = Math.ceil(weather.main.temp * (9 / 5) - 456.67)
-      document.querySelector('.temp').textContent = kelvinConvert
-      document.querySelector('.humidity').textContent = weather.main.humidity
+      document.querySelector('.temp').textContent = kelvinConvert + 'ºF'
+      document.querySelector('.humidity').textContent = weather.main.humidity + '%'
       document.querySelector('.clouds').textContent = weather.weather[0].description
       document.querySelector('.city').textContent = weather.name
     })
